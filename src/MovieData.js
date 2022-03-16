@@ -45,7 +45,7 @@ export default function MovieData() {
     setlike(LikedData)
 
   }
-  console.log(favMovie)
+  
   return (
     <div>
       <Navbar handleSearch={handleSearch} />
