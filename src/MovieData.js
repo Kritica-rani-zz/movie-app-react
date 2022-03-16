@@ -9,7 +9,7 @@ export default function MovieData() {
   const [favMovie, isfavMovie] = useState(false)
 
   async function Movie(s) {
-    const response = await fetch(`http://www.omdbapi.com/?apikey=891a9115&s=${s}`)
+    const response = await fetch(`https://www.omdbapi.com/?apikey=891a9115&s=${s}`)
     const responseData = await response.json();
 
     setMovieData(responseData.Search)
