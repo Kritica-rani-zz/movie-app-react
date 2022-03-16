@@ -1,0 +1,53 @@
+body{
+    /* background-color: #f5fffa; */
+    background-color: #d6ffeb
+}
+
+.Movie-Body{
+    height:370px;
+    width:auto;
+    padding: 60px;
+    margin: 60px;
+    display: flex;
+text-align: center;
+background-color: #F0FFF0;
+display: flex;
+justify-content: center;
+align-content: center;
+}
+.Description h3{
+/* text-align: start;
+font-family: sans-serif;
+font-size: xx-large; */
+padding: 10px 20px;
+font-size: 25px;
+font-weight: 600;
+}
+.Description p{
+font-size: larger;
+font-weight: 600;
+}
+
+
+.image{
+    height: 371px;
+    width: 330px
+
+}
+.Movie-info{
+    height:500px;
+    width:500px;
+    display: flex;
+    justify-content: space-between;
+}
+.Btn-like{
+    height:40px;
+    width:60px;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+}
+.Btn-like:hover{
+    background-color: blue;
+    color: white;
+}

@@ -1,0 +1,14 @@
+.Btn-Tab{
+    background: #fff;
+    padding: 10px;
+    margin-right: 13px;
+    border-radius: 3px;
+    border: 1px solid #e1e1e1;
+    bottom: 30px;
+    height: 50px;
+    width: 110px;
+}
+.Btn-Tab:hover{
+    background-color: blue;
+    color: white;
+}
